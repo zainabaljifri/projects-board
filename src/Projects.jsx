@@ -8,11 +8,11 @@ function Projects() {
         fetch('https://zainabaljifri.github.io/data/data.json')
             .then((res) => res.json())
             .then((res) => {
-                console.log(res)
+                // console.log(res)
                 fetchData(res)
             })
     }
-    useEffect(() => {
+    useEffect(() => { 
         getData()
     }, [])
     return (

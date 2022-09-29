@@ -26,8 +26,7 @@ footer{
 }
 .item{
     background-color: white;
-    width: 20%;
-    margin: 2%;
+    margin: 2rem;
     padding: 1rem;
     border-radius: 10px;;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -49,7 +48,7 @@ footer{
 img{
     height: 100px;
     width: 150px;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     border-radius: 10px;
 }
 .item:hover img{
